@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h1>Eliminar empleado</h1>
+    </div>
+    <div class="card-body">
+      <form>
+        <div class="form gruop">
+          <label>Id</label>
+          <input [(ngModel)] = "empleados.id" name="id" type="text" class="form-control"/>
+        </div>
+        <div class="form gruop">
+          <label>Nombre</label>
+          <input [(ngModel)] = "empleados.nombre" name="nombre" type="text" class="form-control"/>
+        </div>
+        <div class="form gruop">
+          <label>Apellido</label>
+          <input [(ngModel)] = "empleados.apellido" name="apellido" type="text" class="form-control"/>
+        </div>
+        <div class="form gruop">
+          <label>Departamento</label>
+          <input [(ngModel)] = "empleados.departamento" name="departamento" type="text" class="form-control"/>
+        </div>
+        <div class="form gruop">
+          <label>Edad</label>
+          <input [(ngModel)] = "empleados.edad" name="edad" type="text" class="form-control"/>
+        </div>
+        <button (click) = "Eliminar(empleados)" class="btn btn-danger">Eliminar</button>
+      </form>
+    </div>
+  </div>
+ </div>
+
+
+

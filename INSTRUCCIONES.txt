@@ -1,0 +1,4 @@
+*************************************Archivos*****************************
+La carpeta EmpCrud contiene el desarrollo en Angular que es el front 
+La carpeta SpringCrudEmpleados contiene la funcionalidad desarrollada en JAVA en SpringBoot, ayuda a consumir apis y conectar con la base de datos 
+Empleados.sql contiene la base de datos echa en Oracle 11g
